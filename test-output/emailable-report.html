@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">100,760</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Cognizant.TestScenarios.LoginCognizant</td><td><a href="#m0">approvalTest</a></td><td rowspan="1">1653374759022</td><td rowspan="1">35967</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.Cognizant.TestScenarios.CognizantAppsAndTools</td><td><a href="#m1">captureAppsAndToolsTest</a></td><td rowspan="1">1653374837154</td><td rowspan="1">2347</td></tr><tr class="passedeven"><td><a href="#m2">captureScreenTest</a></td><td rowspan="1">1653374811758</td><td rowspan="1">2335</td></tr><tr class="passedeven"><td><a href="#m3">getAppsAndToolsTest</a></td><td rowspan="1">1653374816600</td><td rowspan="1">20551</td></tr><tr class="passedeven"><td><a href="#m4">setWindowTest</a></td><td rowspan="1">1653374811036</td><td rowspan="1">720</td></tr><tr class="passedodd"><td rowspan="6">com.Cognizant.TestScenarios.CognizantStockPriceDetails</td><td><a href="#m5">captureNewWindowScreenTest</a></td><td rowspan="1">1653374808641</td><td rowspan="1">2358</td></tr><tr class="passedodd"><td><a href="#m6">captureScreenTest</a></td><td rowspan="1">1653374796213</td><td rowspan="1">2790</td></tr><tr class="passedodd"><td><a href="#m7">compareStockPriceTest</a></td><td rowspan="1">1653374811003</td><td rowspan="1">28</td></tr><tr class="passedodd"><td><a href="#m8">getCognizantStockPriceTest</a></td><td rowspan="1">1653374799005</td><td rowspan="1">48</td></tr><tr class="passedodd"><td><a href="#m9">getGoogleStockPriceTest</a></td><td rowspan="1">1653374799055</td><td rowspan="1">9584</td></tr><tr class="passedodd"><td><a href="#m10">getUserInfoTest</a></td><td rowspan="1">1653374795003</td><td rowspan="1">1206</td></tr><tr class="passedeven"><td rowspan="2">com.Cognizant.TestScenarios.LoginCognizant</td><td><a href="#m11">setPasswordTest</a></td><td rowspan="1">1653374753884</td><td rowspan="1">5135</td></tr><tr class="passedeven"><td><a href="#m12">setUserIdTest</a></td><td rowspan="1">1653374747439</td><td rowspan="1">6434</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.Cognizant.TestScenarios.LoginCognizant#approvalTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: target frame detached
+  (Session info: chrome=101.0.4951.67)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-MNVU3AS8&apos;, ip: &apos;169.254.118.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\PAVANK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e5eea5d18d109526fa2e5e075944d93
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.Cognizant.Pages.CognizantLoginPage.verifyId(CognizantLoginPage.java:92)
+	at com.Cognizant.TestScenarios.LoginCognizant.approvalTest(LoginCognizant.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Cognizant.TestScenarios.CognizantAppsAndTools#captureAppsAndToolsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Cognizant.TestScenarios.CognizantAppsAndTools#captureScreenTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Cognizant.TestScenarios.CognizantAppsAndTools#getAppsAndToolsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>company apps</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.Cognizant.TestScenarios.CognizantAppsAndTools#setWindowTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.Cognizant.TestScenarios.CognizantStockPriceDetails#captureNewWindowScreenTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.Cognizant.TestScenarios.CognizantStockPriceDetails#captureScreenTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.Cognizant.TestScenarios.CognizantStockPriceDetails#compareStockPriceTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.Cognizant.TestScenarios.CognizantStockPriceDetails#getCognizantStockPriceTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.Cognizant.TestScenarios.CognizantStockPriceDetails#getGoogleStockPriceTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.Cognizant.TestScenarios.CognizantStockPriceDetails#getUserInfoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.Cognizant.TestScenarios.LoginCognizant#setPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.Cognizant.TestScenarios.LoginCognizant#setUserIdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
