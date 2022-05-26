@@ -59,6 +59,7 @@ public class GoogleStockPage extends TestBase {
 		price1 = driver.findElement(stockpriceLocator).getText();
 		System.out.println("\n**********************************************************************************************************************\n");
 		System.out.println("Google Site : CTSH Price is " + price1+"\n");
+		System.out.println();
 
 	}
 
